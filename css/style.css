@@ -1,0 +1,56 @@
+body{
+
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    height: 50PX;
+    background-color: #00557f;
+    text-align: center;
+    width: 100%;
+}
+
+header h1{
+    font-size: 30px;
+    line-height: 8px;
+    color: #ffffff;
+}
+
+nav{  
+    position: fixed;
+    float: left;
+    margin-top: 55px;
+    width: 150px;
+    background-color: #a2a232;
+    height: calc(100vh - 80px);
+    width: 200px;
+    /*vh - viewport height
+      vw - viewport width */
+}
+
+.content{
+    float: right;
+    margin-top: 55px;
+    width: calc(100vw - 230px);
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #454534 ;
+    text-align: center;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 2px;
+}
+
+nav ul>li{
+    margin: ;
+    height: ;
+}
